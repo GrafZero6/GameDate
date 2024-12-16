@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <footer>
+        <div></div>
+    </footer>
+    <main class="wrappers">
+        <h1>Календарь выхода игр на 2025 год</h1>
+        <button class="button" id="btn" onclick="b()">Январь 2025</button>
+        <section id="section" >
+            <ul id="ul" class="January">
+                <h3 id="name_0"></h3>
+                <li>
+                    <p> Издатель: <span id="publisher_0"></span></p>
+                </li>
+                <li>
+                    <p> Разработчик: <span id="developer_0"></span></p>
+                </li>
+                <li>
+                    <p class="main_li_p"> Жанр: <span id="genre_0"></span></p>
+                </li>
+                <li>
+                    <p class="main_li_p"> Режим игры: <span id="game_Mode_0"></span></p>
+                </li>
+                <li>
+                    <p class="main_li_p"> Платформы: <span id="platform_0"></span></p>
+                </li>
+                <li>
+                    <p class="main_li_p"> Дата выхода: <span id="kelease_date_0"></span></p>
+                </li>
+                <li class="li_img">
+                    <img src="#" alt="" id="image_0" width="100%">
+                </li>
+            </ul>
+
+            <ul class="January">
+                <h3 id="name_1"></h3>
+                <li>
+                    <p> Издатель: <span id="publisher_1"></span></p>
+                </li>
+                <li>
+                    <p> Разработчик: <span id="developer_1"></span></p>
+                </li>
+                <li>
+                    <p class="main_li_p"> Жанр: <span id="genre_1"></span></p>
+                </li>
+                <li>
+                    <p class="main_li_p"> Режим игры: <span id="game_Mode_1"></span></p>
+                </li>
+                <li>
+                    <p class="main_li_p"> Платформы: <span id="platform_1"></span></p>
+                </li>
+                <li>
+                    <p class="main_li_p"> Дата выхода: <span id="kelease_date_1"></span></p>
+                </li>
+                <li class="li_img">
+                    <img src="" alt="" id="image_1" width="100%">
+                </li>
+            </ul>
+
+            <ul class="January">
+                <h3 id="name_2"></h3>
+                <li>
+                    <p> Издатель: <span id="publisher_2"></span></p>
+                </li>
+                <li>
+                    <p> Разработчик: <span id="developer_2"></span></p>
+                </li>
+                <li>
+                    <p class="main_li_p"> Жанр: <span id="genre_2"></span></p>
+                </li>
+                <li>
+                    <p class="main_li_p"> Режим игры: <span id="game_Mode_2"></span></p>
+                </li>
+                <li>
+                    <p class="main_li_p"> Платформы: <span id="platform_2"></span></p>
+                </li>
+                <li>
+                    <p class="main_li_p"> Дата выхода: <span id="kelease_date_2"></span></p>
+                </li>
+                <li class="li_img">
+                    <img src="" alt="" id="image_2" width="100%">
+                </li>
+            </ul>
+        </section>
+        <section id="section" >
+            
+        </section>
+
+
+    </main>
+
+    <script>
+        let button = document.getElementById('btn');
+       
+
+
+
+
+
+
+
+
+
+        let game = [
+                {
+                    id: "1",
+                    name: "Assassin’s Creed Shadows",
+                    publisher: "Ubisoft",
+                    developer: "Ubisoft Quebec",
+                    genre: "экшен-RPG в открытом мире",
+                    game_Mode: "одиночный",
+                    platform: "ПК" + "PlayStation 5" + " Xbox Series",
+                    kelease_date: "4 февраля",
+                    image: "./image_0.webp",
+                    the_slogan: "Переживите переплетенные истории Наоэ, искусного убийцы-шиноби из провинции Ига, и Ясукэ, могущественного африканского самурая из исторических легенд. На фоне бурного позднего периода Сэнгоку этот замечательный дуэт обнаружит свою общую судьбу, открывая новую эру для Японии.",
+                    story: "Основные события игры будут происходить в период Адзути-Момояма японской истории в промежутке между 1579 и 1580-ми годами[2], также игрок сможет наблюдать флешбэки. В кинематографическом трейлере показаны воспоминания главных героев: Наоэ вспоминает, как её отец, мастер-ниндзя клана Ига Фудзибаяси Нагато, обучал девушку мастерству синоби. А самурай африканского происхождения Ясукэ вспоминает, как он поступил на службу к Оде Нобунаге. Впервые главные герои встретятся во время восстания ниндзя в провинции Ига. Отряд самураев, в составе которого находится Ясукэ в полном самурайском облачении, сражается с мятежниками возле родной деревни Наоэ, в результате этого населённый пункт оказывается сожжён, а Наоэ проникается жаждой мести. В дальнейшем главные герои объединятся, чтобы противостоять тамплиерам",
+                },
+            
+                {
+                    id: "2",
+                    name: "Avowed",
+                    publisher: "Xbox Game Studios",
+                    developer: " Obsidian Entertainment",
+                    genre: "RPG от первого лица",
+                    game_Mode: "одиночный",
+                    platform: "ПК" + "PlayStation 5" + " Xbox Series",
+                    kelease_date: "18 февраля",
+                    image: "./image_1.webp",
+                    the_slogan: "Исследуйте Живые земли, таинственный остров, полный приключений и опасностей. В роли посланника Аэдира вас отправляют расследовать слухи о распространяющейся чуме с тайной, которая угрожает уничтожить все. Сможете ли вы спасти остров и свою душу от сил, угрожающих разорвать их на части?",
+                    story: "Действие игры будет происходить в Живых землях, в одном из уголков фэнтезийного мира Эора из предыдущей игры разработчика Pillars of Eternity. Аэдирская империя, держава объединяющая людей и эльфов, отправляет главного героя выяснить, почему Живые земли охватила таинственная чума[2]",
+                },
+                {
+                    id: "3",
+                    name: "Kingdom Come: Deliverance 2",
+                    publisher: "Deep Silver",
+                    developer: "Warhorse Studios",
+                    genre: "RPG в открытом мире",
+                    game_Mode: "одиночный",
+                    platform: "ПК" + "PlayStation 5" + " Xbox Series",
+                    kelease_date: "11 февраля",
+                    image: "./image_2.webp",
+                    the_slogan: "Геймплей за самурая Ясукэ и ниндзя Наоэ будет различаться. Мужчина предпочитает сражаться в открытом бою, а девушка скрывается в тенях. Кадр: Ubisoft",
+                    story: "",
+                },
+
+            ]
+      
+        function b() {
+            
+            for (i = 0; i < game.length; i++) {
+                
+                let names = document.getElementById('name_' + i);
+                let publishers = document.getElementById('publisher_' + i);
+                let developers = document.getElementById('developer_' + i);
+                let genres = document.getElementById('genre_' + i);
+                let game_Modes = document.getElementById('game_Mode_' + i);
+                let platforms = document.getElementById('platform_' + i);
+                let kelease_dates = document.getElementById('kelease_date_' + i);
+                let images = document.getElementById('image_' + i);
+        
+                names.innerHTML = game[i].name;
+                publishers.innerHTML = game[i].publisher;
+                developers.innerHTML = game[i].developer;
+                genres.innerHTML = game[i].genre;
+                game_Modes.innerHTML = game[i].game_Mode;
+                platforms.innerHTML = game[i].platform;
+                kelease_dates.innerHTML = game[i].kelease_date;
+                images.src = game[i].image;
+                console.log(images);
+                
+                
+                
+
+            };
+        };
+
+    </script>
+    <style>
+        .wrappers {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .January {
+            
+        }
+        .NOJanuary {
+            display: block;
+        }
+        ul {
+            padding: 0;
+            list-style-type: none;
+            border: thick double #32a1ce;
+            background: content-box radial-gradient(rgb(207, 184, 189), rgb(226, 238, 243));
+        }
+        body {
+            background: content-box radial-gradient(rgb(207, 184, 189), rgb(103, 107, 109));
+        }
+        img {
+            border-radius: 40px;
+        }
+        .li_img {
+           
+            text-align: center;
+        }
+        li {
+            padding: 0 30px 0 30px;
+        }
+        h1, h3 {
+            text-align: center;
+        }
+    </style>
+
+
+</body>
+
+</html>
